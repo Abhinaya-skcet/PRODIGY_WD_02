@@ -1,0 +1,89 @@
+body{
+ background-color:black;
+ background-image: url('https://i.pinimg.com/474x/04/5a/80/045a80ef1a3c4614310d66fdd4cc9dee.jpg');
+ background-repeat: no-repeat;
+ padding-left:50px;
+}
+.abc{
+  background-image: url('https://i.pinimg.com/564x/5b/cb/63/5bcb63d1e9c3afcb20b0582bfe60a2d0.jpg');
+  background-repeat: no-repeat;
+  background-position: right;
+  background:size 50px;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff; /* Set the background color for the container */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow for depth */
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.stopwatch {
+  font-size: 4rem;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.buttons {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.buttons button {
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  margin: 0 10px;
+}
+
+.buttons button:first-child {
+  background-color: #28a745;
+  border-color: #28a745;
+}
+
+.buttons button:first-child:hover {
+  background-color: #218838;
+  border-color: #218838;
+}
+
+.buttons button:nth-child(2) {
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+.buttons button:nth-child(2):hover {
+  background-color: #c82333;
+  border-color: #c82333;
+}
+
+.buttons button:last-child {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.buttons button:last-child:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+.laps {
+  text-align: center;
+}
+
+.laps h2 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.lap-item {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #555;
+}
